@@ -1,5 +1,4 @@
 <template>
-  <transition enter-active-class="slideInLeft" leave-active-class='slideOutRight'>
     <div id="reg" class="animated">
       <div class="row col-lg-6">
         <h1>欢迎注册</h1>
@@ -55,7 +54,6 @@
         <!-- /.modal -->
       </div>
     </div>
-  </transition>
 </template>
 <script>
 import {register} from '@/api'

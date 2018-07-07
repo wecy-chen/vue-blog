@@ -8,11 +8,10 @@ import PublicArticle from '@/components/PublicArticle'
 Vue.use(Router)
 
 export default new Router({
-  // mode: 'history', // build 要去掉
+  //mode: 'history', // build 要去掉
   saveScrollPosition: true,
   routes: [{
     path: '/',
-    name: 'home',
     component: Home
   },
   {
@@ -21,7 +20,7 @@ export default new Router({
   },
   {
     path: '*',
-    component: Home
+    directives: '/home'
   },
   {
     path: '/register',

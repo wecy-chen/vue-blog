@@ -1,5 +1,4 @@
 <template>
-  <transition enter-active-class="slideInLeft" leave-active-class='slideOutRight'>
     <div style="margin-top:60px" class="animated">
       <div class="container">
         <div class="row" v-cloak>
@@ -28,7 +27,6 @@
       </div>
     </div>
     </div>
-  </transition>
 </template>
 <script>
   import {publicArticle} from '@/api'
